@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    background-color: #1E1E2C;
+    width: 100vw;
+    overflow-x: hidden;
+    color: #D1D1D1;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card {
+    background-color: #2D2D2D; /* Charcoal Gray */
+    color: #F4F4F4; /* Light Gray */
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.animatedButton {
+    animation-duration: 10000ms;
+}
+
+/*  */
